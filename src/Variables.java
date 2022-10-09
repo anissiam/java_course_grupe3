@@ -21,5 +21,6 @@ public class Variables {
         System.out.println("50");
         x = 50;
         System.out.println(x);
+
     }
 }
