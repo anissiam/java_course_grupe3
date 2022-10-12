@@ -1,7 +1,9 @@
+package com.basics.java3;
+
 public class FirstClass {
     int x;// Global
     boolean y = false;
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         //int x = 10; // LOCAL
         //boolean zz = true;
 

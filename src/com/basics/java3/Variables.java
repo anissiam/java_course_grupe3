@@ -1,5 +1,7 @@
+package com.basics.java3;
+
 public class Variables {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
 
         int x= 10;
         //int x = 100;

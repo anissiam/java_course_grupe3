@@ -1,10 +1,10 @@
+package com.basics.java3;
+
 public class Operators {
     /*
-    Operators and Casting
+    com.basics.java3.Operators and Casting
      */
-    public static void main(String[] args) {
-
-
+    public static void main(Strings[] args) {
         /*int x = 10;
         int y = 50;
         int result = x + y;
