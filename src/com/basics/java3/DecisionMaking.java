@@ -4,7 +4,102 @@ import java.util.Scanner;
 
 public class DecisionMaking {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine(); //Anis
+
+        char ch = name.charAt(0);//A
+        switch (ch) {
+            case 'a':
+                System.out.println("a");
+                break;
+            case 'b':
+                System.out.println("b");
+                break;
+            case 'c':
+                System.out.println("c");
+                break;
+            case 'd':
+                System.out.println("d");
+                break;
+            default:
+                System.out.println("not valid");
+        }
+
+       /* switch (name){
+            case "anis" :
+                System.out.println(name);
+                if(name.length()>=4){
+                    System.out.println(">4");
+                }
+                break;
+            case "ali" :
+                System.out.println(name);
+                break;
+            default: System.out.println("not valid");
+        }*/
+
+
+        /*System.out.println("Plz enter Y");
+        int y = scanner.nextInt();
+
+        switch (y){
+            case 1 : System.out.println("y=1");
+                break;
+            case 2 :
+            case 3 : System.out.println("Y=2 OR 3");
+                break;
+            case 4 :
+                System.out.println("y=4");
+                break;
+            default: System.out.println("not valid");
+
+        }*/
+
+        /*switch (y%2){
+            case 0 :
+                System.out.println("EVEN");
+                break;
+            case 1 : System.out.println("ODD");
+                break;
+        }*/
+
+        /*switch (y) {
+            case 1:
+                System.out.println("Y = 1 ");
+                break;
+            case 2:
+                System.out.println("Y= 2");
+                break;
+            case 3:
+                System.out.println("Y= 3");
+                break;
+            case 4:
+                System.out.println("Y= 4");
+                break;
+            case 5:
+                System.out.println("Y= 5");
+                break;
+            default: System.out.println("not valid");
+        }
+        // نفس استخدام Swtich
+        if(y==1){
+            System.out.println("Y = 1 ");
+        }else if(y==2){
+            System.out.println("Y= 2");
+        }else if(y==3){
+            System.out.println("Y= 3");
+        }else if(y==4){
+            System.out.println("Y=4");
+        }else if(y==5){
+            System.out.println("Y= 5");
+        }else {
+            System.out.println("not valid");
+        }
+        */
+
+
+        /*Scanner scanner = new Scanner(System.in);
 
         int x = 10;
         int y = scanner.nextInt();
@@ -12,7 +107,7 @@ public class DecisionMaking {
             System.out.println(x / y);
         }else {
             System.out.println("Con't / zero");
-        }
+        }*/
 
 
 
@@ -188,8 +283,6 @@ public class DecisionMaking {
         }else {
             System.out.println ("x is less than or equal 0 ");
         }*/
-
-
 
 
     }
