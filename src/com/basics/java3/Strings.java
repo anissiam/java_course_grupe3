@@ -52,5 +52,14 @@ public class Strings {
         System.out.println(st.endsWith("java")); // هل ينتهي النص بكلمة java
         System.out.println(st.endsWith("class "));// هل ينتهي النص بكلمة class
 
+        System.out.println("Hello \njava"); // سطر جديد بعد كلمة hello
+        System.out.println("Hello\bjava"); // back space
+        System.out.println("Hello\rjava"); // return
+        System.out.println("Hello\fjava"); // feed for printer
+        System.out.println("Hello\tjava"); // tab
+        System.out.println("Hello \"java\""); // ""
+        System.out.println("Hello \'java\'"); // ''
+        System.out.println("Hello \\java\\"); // \
+
     }
 }

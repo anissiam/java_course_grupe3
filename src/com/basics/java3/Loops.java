@@ -4,8 +4,77 @@ import java.util.Scanner;
 
 public class Loops {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Plz enter number ");
+        int num = in.nextInt();
 
-        Scanner input = new Scanner(System.in);
+        for(;;){
+            if(num ==0){
+                break;
+            }else if(num%2==0){
+                System.out.println("Even");
+            }else {
+                System.out.println("Odd");
+            }
+            System.out.println("Plz enter new number ");
+             num = in.nextInt();
+        }
+
+        /*Scanner in = new Scanner(System.in);
+        System.out.println("Plz enter name ");
+        String name = in.nextLine();
+
+        for(;;){
+
+            if(name.equalsIgnoreCase("no name")){
+                System.out.println("not accepted");
+                break;
+            }
+            System.out.println(name);
+            System.out.println("Plz enter  new name ");
+            name = in.nextLine();
+        }*/
+
+
+        /*int i = 0;
+        for(;; ){
+            if( i>10 ){
+                break;
+            }
+            System.out.println(i);
+            i++;
+        }*/
+
+        /*for(;; System.out.println("Hello")){
+
+        }*/
+        /*كتابة برنامج لحساب ال factorial لاي رقم . بحيث ان ال factorial حاصل ضرب الاعداد n الى. 1 .
+        Scanner in = new Scanner(System.in);
+        System.out.println("Plz enter number ");
+        int num = in.nextInt();
+        int fac = 1;
+        for(int i = 1; i<=num ; i++){
+            fac *= i;
+        }
+        System.out.println(fac);*/
+        /*3. كتابة برنامج لجمع الاعداد الزوجية من 0 الى 100 من خلال for loop .
+        int sum = 0;
+        for(int i = 0 ; i<=100 ; i++){
+            if(i%2==0){
+                sum += i;
+            }
+        }
+        System.out.println("Sum = " + sum);*/
+
+        //1/1 + 1/2 + 1/3 + 1/4 +....+1/n
+       /* double sum = 0;
+        for (int i = 1 ; i<10 ; i++){
+            sum += (1/i);
+
+            System.out.print("1/" + i + "+");
+        }
+        System.out.println(sum);*/
+        /*Scanner input = new Scanner(System.in);
 
         int max = 0;
         int min = 0;
@@ -23,9 +92,7 @@ public class Loops {
             }
         }
         System.out.println("Max : " + max);
-        System.out.println("Min : " + min);
-
-
+        System.out.println("Min : " + min);*/
 
 
 
