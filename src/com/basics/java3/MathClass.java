@@ -19,6 +19,5 @@ public class MathClass {
         System.out.println("Random:" + (Math.random())); // ارجاع قيمة بين 0.0 - 1.0
         System.out.println("Random:" + (Math.random())*10); //ارجاع قيمة بين 0.0 - 10.0
         System.out.println("Random:" +(int) ((Math.random())*10));// ارجاع قيمو بين 0 الى 10
-
     }
 }
