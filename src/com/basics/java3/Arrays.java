@@ -5,8 +5,112 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
+        String hand[][] = {{"s1", "s2" , "s3"},
+                {"s1", "s2" , "s3"},
+                {"s1", "s2" , "s3"},
+                {"s1", "s2" , "s3"},
+                {"s1", "s2" , "s3"}};
 
-        Scanner input = new Scanner(System.in);
+        for(int i = 0 ; i<hand.length;i++){
+            System.out.print("Finger " + (i+1) + "");
+            for(int j =0 ; j<hand[i].length;j++){
+                System.out.print(hand[i][j]+ " ");
+            }
+            System.out.println();
+        }
+        //int[][] tt = {{10, 20, 30}, {10, 80, 90}};
+
+        /*String month[][] = {{"sat", "Sun", "mon", "tus", "wen", "thr", "Fri"}
+        ,{"sat", "Sun", "mon", "tus", "wen", "thr", "Fri"}
+        ,{"sat", "Sun", "mon", "tus", "wen", "thr", "Fri"}
+        ,{"sat", "Sun", "mon", "tus", "wen", "thr", "Fri"}};
+
+        for(int i = 0 ; i<month.length;i++){
+            System.out.print("Week " + (i+1) + " ");
+            for(int j = 0 ; j<month[i].length ; j++){
+                System.out.print(" " + month[i][j] + " ");
+            }
+            System.out.println();
+        }*/
+
+
+        /* int numbers[][] = new int[3][4];
+        System.out.println(numbers.length); // عدد الصفوف
+        System.out.println(numbers[0].length); //طول الصف الاول
+        System.out.println(numbers[0][0]);
+
+    //    numbers[0][0] = 10;
+        System.out.println(numbers[0][0]);
+        //System.out.println(numbers[3][5]);
+       // System.out.println(numbers[5][2]);
+
+       for(int i = 0 ; i<numbers.length; i++){ // تعبر عن عدد الصفوف
+            System.out.print("ROWS : [" + i+ "] ");
+            for(int j= 0 ; j<numbers[i].length ; j++){ // تعبر عن الاعمدة
+                System.out.print(numbers[i][j] + " ");
+            }
+            System.out.println();
+        }*/
+
+        /*
+        SET Sum to 0
+FOR each element in the array
+  ADD element to Sum
+ENDFOR
+PRINT Sum
+         */
+        /*int sum = 0;
+        int[] numbers = {10, 50, 10, 10};
+        for (int element:numbers){
+            sum += element;
+        }
+        System.out.println(sum);
+*/
+
+        /*
+        Tasks. Arrays
+1. كتابة برنامج لادخال عناصر داخل array من نوع int عن طريق scanner حجمها 10 .
+- طباعة مضروب الn  اي (ni) للمصفوفة
+- طباعة ال sum للمصفوفة .
+-طباعة الavarage للمصفوفة
+- طباعة اكثر عنصر واصغر عنصر في المصفوفة.
+- ابحث مثلا عن قيمة ١٠ داخل المصفوفة ويطبع اذا وجد العنصر ام لا .
+الحل داخل for loop واحدة لجميع الافرع وليس اكثر من for
+         */
+
+        /*Scanner input = new Scanner(System.in);
+        int[] numbers = new int[10];
+        int ni = 1;
+        int sum = 0;
+        int max = 0, min = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println("Plz enter num");
+            numbers[i] = input.nextInt();
+            if (i == 0) {
+                min = numbers[i];
+                max = numbers[i];
+            }
+            ni *= numbers[i];
+            sum += numbers[i];
+            if (numbers[i] > max) {
+                max = numbers[i];
+            }
+            if (numbers[i] < min) {
+                min = numbers[i];
+            }
+
+            if (numbers[i] == 10) {
+                System.out.println("Found");
+            }
+        }
+        System.out.println("ni:" + ni);
+        System.out.println("Sum:" + sum);
+        System.out.println("max:" + max);
+        System.out.println("min:" + min);
+        System.out.println("AVA:" + sum / numbers.length);*/
+
+
+        /*Scanner input = new Scanner(System.in);
         System.out.println("Plz enter number of name");
         int x = input.nextInt();
         String[] names = new String[x];
@@ -16,7 +120,7 @@ public class Arrays {
         }
         for (int i=0; i<names.length ;i++){
             System.out.println(names[i]);
-        }
+        }*/
 
         /*Scanner input = new Scanner(System.in);
         int[] numbers = new int[5];
