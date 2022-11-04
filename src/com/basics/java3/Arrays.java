@@ -5,7 +5,23 @@ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
 
-        String hand[][] = {{"s1", "s2" , "s3"},
+        String[] name1 = {"ali", "sami", "mohammed"};
+        String[] name2 = {"soso", "meme", "mohammed"};
+
+        for(int i = 0 ; i<name1.length;i++){
+
+            for(int j = 0 ; j<name2.length;j++){
+
+                if(name1[i].equals(name2[j])){
+                    System.out.println(name1[i]);
+                }
+
+            }
+
+        }
+
+
+        /*String hand[][] = {{"s1", "s2" , "s3"},
                 {"s1", "s2" , "s3"},
                 {"s1", "s2" , "s3"},
                 {"s1", "s2" , "s3"},
@@ -17,7 +33,7 @@ public class Arrays {
                 System.out.print(hand[i][j]+ " ");
             }
             System.out.println();
-        }
+        }*/
         //int[][] tt = {{10, 20, 30}, {10, 80, 90}};
 
         /*String month[][] = {{"sat", "Sun", "mon", "tus", "wen", "thr", "Fri"}
