@@ -5,7 +5,7 @@ public class Person {
     int age ;
     String eyeColor;
    public Person(){
-       System.out.println("Hi from Person");
+      // System.out.println("Hi from Person");
     }
 
     public Person(String name){
@@ -18,5 +18,14 @@ public class Person {
     }
     public void printName() {
         System.out.println("SAMI");
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", eyeColor='" + eyeColor + '\'' +
+                '}';
     }
 }

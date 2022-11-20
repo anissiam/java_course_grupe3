@@ -1,7 +1,13 @@
 package com.oop.java3.classes.fitstClass;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+
+
+
+
         /*Animal animal = new Animal("Locy", "cat" , 3);
         animal.print();
         animal.sound();*/
