@@ -1,7 +1,7 @@
 package com.oop.java3.classes.fitstClass;
 
 public class Person {
-    String name;
+    public String name;
     int age ;
     String eyeColor;
    public Person(){

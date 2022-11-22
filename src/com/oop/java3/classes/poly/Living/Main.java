@@ -1,9 +1,10 @@
 package com.oop.java3.classes.poly.Living;
 
 public class Main {
+    static Living living;
     public static void main(String[] args) {
-
         Poly poly = new Poly();
+
         Living living = new Living();
         poly.poly(living);
        /* poly.sum("SSS");*/
